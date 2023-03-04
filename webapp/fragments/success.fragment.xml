@@ -2,7 +2,7 @@
 	<Dialog>
 		<Text text="Login Successfully"></Text>
 		<beginButton>
-			<Button text="Ok" press="onDialogClose"></Button>
+			<Button id="ok" text="Ok" press="onDialogClose"></Button>
 		</beginButton>
 	</Dialog>
 </core:FragmentDefinition>
