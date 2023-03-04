@@ -10,9 +10,9 @@
 						<Input id="uName"></Input>
 						
 						<Label text="Password"></Label>
-						<Input id="pwd"></Input>
+						<Input id="pwd" type="Password"></Input>
 						
-						<Button text="Login" type="Accept"></Button>
+						<Button press="onBtnClick" text="Login" type="Accept"></Button>
 						<Button text="SignUp" type="Reject"></Button>
 					</form:SimpleForm>
 				</content>
