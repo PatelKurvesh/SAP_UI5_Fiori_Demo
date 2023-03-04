@@ -1,9 +1,21 @@
 <mvc:View controllerName="PracticeSAP_UI5_Fiori_Demo.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
-	displayBlock="true" xmlns="sap.m">
+	displayBlock="true" xmlns="sap.m" xmlns:form="sap.ui.layout.form">
 	<App>
 		<pages>
 			<Page title="{i18n>title}">
-				<content></content>
+				<content class="div">
+					<form:SimpleForm>
+						
+						<Label text="UserName"></Label>
+						<Input id="uName"></Input>
+						
+						<Label text="Password"></Label>
+						<Input id="pwd"></Input>
+						
+						<Button text="Login" type="Accept"></Button>
+						<Button text="SignUp" type="Reject"></Button>
+					</form:SimpleForm>
+				</content>
 			</Page>
 		</pages>
 	</App>
