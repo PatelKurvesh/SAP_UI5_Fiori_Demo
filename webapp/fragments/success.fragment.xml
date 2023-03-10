@@ -1,6 +1,8 @@
 <core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
 	<Dialog>
+		<content>
 		<Text text="Login Successfully"></Text>
+		</content>
 		<beginButton>
 			<Button id="ok" text="Ok" press="onDialogClose"></Button>
 		</beginButton>

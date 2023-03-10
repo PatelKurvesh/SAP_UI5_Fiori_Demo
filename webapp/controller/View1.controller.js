@@ -21,10 +21,10 @@ sap.ui.define([
 				sap.m.MessageToast.show("Check your UserName or Password");
 			}
 			
+		},
+		onDialogClose : function(){
+			this.frag.close();
 		}
-		// onDialogClose:function(){
-		// 	this.frag.close();
-		// }
 
 	});
 });
